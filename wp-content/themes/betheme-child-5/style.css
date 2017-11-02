@@ -1,0 +1,40 @@
+/*
+Theme Name: 	Betheme Child
+Theme URI: 		http://themes.muffingroup.com/betheme
+Author: 		Muffin group
+Author URI: 	http://muffingroup.com
+Description:	Child Theme for Betheme - Premium WordPress Theme
+Template:		betheme
+Version: 		1.6.1
+*/
+
+/* Theme customization starts here
+-------------------------------------------------------------- */
+#Top_bar .menu li ul li {
+    text-align: left;
+}
+#Content {
+    font-size: 18px !important;
+}
+.single-post.with_aside .sections_group {
+    padding-top: 0;
+    padding-bottom: 10vw;
+}
+
+
+.single-post.with_aside .content_wrapper {
+		padding-top: 5vw;
+}
+
+
+/* New Skew CSS*/
+header#Header svg {
+    /*display: none;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 125px;
+    fill: hsl(200, 50%, 50%);
+    z-index: 5;
+}
