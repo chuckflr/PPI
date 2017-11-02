@@ -1,0 +1,2 @@
+dbusername=corey
+dbpassword=secret
